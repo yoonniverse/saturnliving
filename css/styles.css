@@ -1,6 +1,7 @@
 body {
   font-family: 'Noto Sans KR', sans-serif;
   text-align: center;
+  word-break: keep-all;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -17,11 +18,11 @@ nav {
 }
 
 .download-button {
-  margin: 5% 3% 5% 0;
+  margin: 20px;
 }
 
 .colored-section {
-  background-color: #A6CD48;
+  background-color: #F2AAF4;
   color: white;
 }
 
@@ -47,7 +48,7 @@ nav {
 /* Navbar */
 
 .navbar {
-  margin-bottom: 2rem;
+  margin-bottom: 100px;
 }
 
 .navbar-brand {
@@ -69,15 +70,15 @@ nav {
 
 #title {
   text-align: left;
-  background-color: #57B967;
+  background-color: #DF75E3;
 }
 
 #title .container-fluid {
-  padding: 7%;
+  padding: 5% 12% 8%;
 }
 
 .title-img {
-  width: min(80%, 400px); /* or any custom size */
+  width: min(80%, 600px);
 }
 
 .title-col {
@@ -97,16 +98,18 @@ nav {
 }
 
 .feature-box {
-  padding: 3%
+  padding: 3%;
+  max-width: 500px;
+  margin: auto;
 }
 
 .feature-icon {
-  color: #A6CD48;
+  color: #F2AAF4;
   margin-bottom: 1rem;
 }
 
 .feature-icon:hover {
-  color: #57B967;
+  color: #DF75E3;
 }
 
 .feature-title {
@@ -116,13 +119,26 @@ nav {
 
 .feature-desc {
   color: #8f8f8f;
+  text-align: left;
 }
 
 
+/* Photos */
+
+#photos .container-fluid {
+  max-width: 1200px;
+}
+
+.photos-img {
+  width: 100%;
+  margin: 10px;
+}
+
 /* Testimonials */
 
-#testimonials {
+#testimonial-carousel {
   height: 400px;
+  width: 100%;
 }
 
 .testimonial-img {
@@ -152,14 +168,6 @@ nav {
 .press-logo {
   width: 100%;
   margin: 5%;
-}
-
-
-/* Photos */
-
-.photos-img {
-  width: 100%;
-  margin: 10px;
 }
 
 
