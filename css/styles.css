@@ -1,0 +1,188 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 2;
+}
+
+nav {
+  border-bottom: solid 1px #F7FBE8;
+}
+
+.container-fluid {
+  padding: 3% 7%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.colored-section {
+  background-color: #A6CD48;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+  color: black;
+}
+
+/* Heading */
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Navbar */
+
+.navbar {
+  margin-bottom: 2rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+
+/* Title */
+
+#title {
+  text-align: left;
+  background-color: #57B967;
+}
+
+#title .container-fluid {
+  padding: 7%;
+}
+
+.title-img {
+  width: min(80%, 400px); /* or any custom size */
+}
+
+.title-col {
+  margin-bottom: 20px;
+}
+.vertical-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Feature */
+
+#features {
+  position: relative;
+}
+
+.feature-box {
+  padding: 3%
+}
+
+.feature-icon {
+  color: #A6CD48;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #57B967;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.feature-desc {
+  color: #8f8f8f;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+  height: 400px;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.comment-writer {
+  font-size: 1.2rem;
+  color: #F7FBE8;
+  font-style: italic;;
+
+}
+
+/* Press */
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 100%;
+  margin: 5%;
+}
+
+
+/* Photos */
+
+.photos-img {
+  width: 100%;
+  margin: 10px;
+}
+
+
+/* Footer */
+
+#footer {
+  text-align: left;
+}
+#footer .container-fluid {
+  padding: 3% 7%;
+}
+
+.footer-text {
+  margin-bottom: 0;
+  color: #8f8f8f;
+}
+
+/* Reponsive */
+
+@media (max-width: 992px)  {
+
+  #title {
+    text-align: center;
+  }
+
+}
