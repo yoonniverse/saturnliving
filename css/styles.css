@@ -1,5 +1,10 @@
+@font-face {
+  font-family :'GmarketSans';
+  src : url('fonts/GmarketSansTTFBold.ttf');
+}
+
 body {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'GmarketSans', sans-serif;
   text-align: center;
   word-break: keep-all;
 }
@@ -10,7 +15,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav {
-  border-bottom: solid 1px #F7FBE8;
+  border-bottom: solid 1px #EEEEEE;
+}
+
+.vertical-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container-fluid {
@@ -18,7 +29,7 @@ nav {
 }
 
 .download-button {
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .colored-section {
@@ -70,7 +81,7 @@ nav {
 
 #title {
   text-align: left;
-  background-color: #DF75E3;
+  background: linear-gradient(to top right, #DB1EFF, #4BA4FF);
 }
 
 #title .container-fluid {
@@ -84,12 +95,15 @@ nav {
 .title-col {
   margin-bottom: 20px;
 }
-.vertical-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.desc-text {
+  color: #EEEEEE;
 }
 
+.text-head-bar {
+  display: inline;
+  height: 50px;
+}
 
 /* Feature */
 
@@ -100,7 +114,7 @@ nav {
 .feature-box {
   padding: 3%;
   max-width: 500px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .feature-icon {
@@ -119,7 +133,6 @@ nav {
 
 .feature-desc {
   color: #8f8f8f;
-  text-align: left;
 }
 
 
@@ -127,6 +140,7 @@ nav {
 
 #photos .container-fluid {
   max-width: 1200px;
+  padding-top: 0;
 }
 
 .photos-img {
@@ -154,7 +168,7 @@ nav {
 
 .comment-writer {
   font-size: 1.2rem;
-  color: #F7FBE8;
+  color: #EEEEEE;
   font-style: italic;;
 
 }
@@ -165,9 +179,29 @@ nav {
   padding-bottom: 3%;
 }
 
+#press .container-fluid {
+  max-width: 1000px;
+}
+
 .press-logo {
   width: 100%;
   margin: 5%;
+}
+
+/* Service */
+
+#service {
+  background-color: #EDEDEB;
+}
+
+.service-img {
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto;
+}
+
+.service-desc {
+  font-size: 1.2rem;
 }
 
 
@@ -183,6 +217,7 @@ nav {
 .footer-text {
   margin-bottom: 0;
   color: #8f8f8f;
+  font-weight: 100;
 }
 
 /* Reponsive */
