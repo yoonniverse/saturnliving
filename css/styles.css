@@ -76,6 +76,11 @@ nav {
   font-weight: 500;
 }
 
+.brand-img {
+  display: inline;
+  height: 45px;
+}
+
 
 /* Title */
 
