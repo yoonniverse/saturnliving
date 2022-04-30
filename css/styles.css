@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container-fluid {
-  padding: 7%;
+  padding: 40px 7%;
 }
 
 .vertical-center {
@@ -33,7 +33,6 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
 }
-
 
 .download-button {
   margin: 10px 0;
@@ -56,6 +55,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .white-section .light-text {
   color: #8f8f8f;
+}
+
+.list-group-item {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* Navbar */
@@ -119,13 +123,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .photos-img {
   width: 100%;
-  margin: 10px;
+  margin: 2px 0;
 }
 
 /* Testimonials */
 
 #testimonial-carousel {
-  height: 300px;
+  height: 250px;
   width: 100%;
 }
 
@@ -172,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'GmarketSansLight', sans-serif;
   margin-bottom: 0;
   color: #8f8f8f;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 
@@ -191,5 +195,13 @@ h1, h2, h3, h4, h5, h6 {
   }
   .text-head-bar {
     height: 25px;
+  }
+  .container-fluid {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  #title {
+    padding-left: 5%;
+    padding-right: 5%
   }
 }
